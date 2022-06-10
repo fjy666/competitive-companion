@@ -98,6 +98,7 @@ import { VirtualJudgeProblemParser } from './problem/VirtualJudgeProblemParser';
 import { XXMProblemParser } from './problem/XXMProblemParser';
 import { YandexProblemParser } from './problem/YandexProblemParser';
 import { YukicoderProblemParser } from './problem/YukicoderProblemParser';
+import { GDGZProblemParser } from './problem/GDGZProblemParser';
 
 export const parsers: Parser[] = [
   new A2OnlineJudgeProblemParser(),
@@ -167,6 +168,7 @@ export const parsers: Parser[] = [
   new FZUOnlineJudgeContestParser(),
 
   new GoogleCodingCompetitionsProblemParser(),
+  new GDGZProblemParser(),
 
   new HackerEarthProblemParser(),
   new HackerEarthCodeArenaParser(),
