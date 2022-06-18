@@ -100,6 +100,7 @@ import { YandexProblemParser } from './problem/YandexProblemParser';
 import { YukicoderProblemParser } from './problem/YukicoderProblemParser';
 import { GDGZProblemParser } from './problem/GDGZProblemParser';
 import { BNDSOJProblemParser } from './problem/BNDSOJProblemParser';
+import { HDOIProblemParser } from './problem/HDOIProblemParser'
 
 export const parsers: Parser[] = [
   new A2OnlineJudgeProblemParser(),
@@ -181,6 +182,7 @@ export const parsers: Parser[] = [
 
   new HDOJProblemParser(),
   new HDOJContestParser(),
+  new HDOIProblemParser(),
 
   new HITOnlineJudgeProblemParser(),
 
